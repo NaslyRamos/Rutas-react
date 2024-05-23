@@ -1,31 +1,208 @@
-.App {
+.imagenPrincipal{
+  width: 60%;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+/* Estilos Menu*/
+.links-container {
+  background-color: #005AAB;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none; 
+  color: white; 
+  margin-right: 40px; 
+  margin-left: 40px;
+  padding: 10px;
+}
+.link:hover {
+  color:white;
+  background-color:#EB4724 ; 
+}
+.container-footer{
+  background-color: #005AAB;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Estilos pie de pagina */
+.container-footer img{
+  width: 20px;
+  margin-right: 10px; 
+  margin-left: 20px;
+}
+.container-footer p{
+  font-size: 15px;
+  margin: 0; 
+}
+/* Estilos Titulo seccion */
+.titulo{
+  text-align: center;
+  background-color: #575455;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 0 0 80px 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+/* Estilos pag. inicio */
+.contenedor1 {
+  display: flex;
+}
+.img2{
+  width: 30%;
+  transition: transform 0.3s ease; 
+  float: left;
+  margin-left: 50px;
+}
+.img2:hover {
+transform: translatex(15px); 
+}
+.aboutUs{
+  margin-left: 40px;
+  margin-right: 70px;
+}
+.nombreEmpresa, 
+.text1{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mision, .vision {
+  text-align: center;
+  padding: 10px;
+  margin: 40px 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;  
+  flex: 1;
+  transition: transform 0.3s ease; 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mision:hover, .vision:hover{
+transform: scale(0.9); 
+}
+/* Estilos pag. valores */
+.contenedor2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+.text2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  margin: 10px; 
+  padding: 20px; 
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  flex: 1;
+  transition: transform 0.3s ease; 
+}
+.text2:hover{
+  transform: scale(1.1); 
+}
+.text2 img {
+  width: 100px;
+  height: 100px;
+}
+.text2 h3 {
+  color: #EB4724;
+  font-size: 15px; 
+  margin-bottom: -15px; 
+}
+
+.valor-corporativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px; 
+  padding: 5px; 
+  border-radius: 10px;
+  background-color:#EB4724;
+  color: white; 
+}
+
+.valor-corporativo h3 {
+  font-size: 18px; 
+  line-height: 0.1em;
+}
+.valor-corporativo p{
+  line-height: 0.1em;
+}
+/* Estilo pag. servicios */
+.contenedor3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.servicio {
+  display: block;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+ .servicio img {
+  width: 100%;  
+  height: auto; 
+  
+}
+.servicio h3 {
+  font-size: 12px;
+  margin: 0;
+  color: #333; 
+  text-align: center;
+  padding:  auto;
+  margin-bottom: 15px;
+} 
+/* Estilos pag instalaciones */
+.contenedor4 {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contenedor4 h2 {
+  font-size: 20px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
-.heart {
-  color: #ff0000;
+.contenedor4 img {
+  width: 200px;
+  height: auto;
 }
 
-.small {
-  font-size: 0.75rem;
+/* Address styles */
+.contenedor4 h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.contenedor4 p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.soledad, .lourdes {
+  flex: 1;
+  margin: 0 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 10px;
 }
